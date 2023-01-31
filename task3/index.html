@@ -1,0 +1,75 @@
+<!-- Дан макет сайта. На предыдущем уроке вы сформировали данные из раздела товары
+При клике на кнопку add to cart у товара под блоком с акциями появляется раздел Cart items
+В разделе Cart items появляются товары, добавленные в корзину
+При клике на крестик, товар удаляется из из раздела корзины, если удалить все товары, раздел полностью пропадает. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="product_box">
+        <div class="product">
+            <div class="product1">
+            <img class="product-img" src = "img/Rectangle2.jpg"  alt="photo"/>
+            <button id="butt" class="btn">Add to Cart</button>
+            
+        </div>
+            <div class="product-inf">
+                <p>ELLERY X M'O CAPSULE</p>
+                <div class="cell">
+                    <p>Known for her sculptural takes on traditional tailoring, 
+                        Australian arbiter of cool Kym Ellery teams up with 
+                        Moda Operandi</p>
+                    <span></span>
+                </div>
+                <div class="cell">
+                    <p>$52.00</p>
+                    <span class="qantity"></span>
+                </div>
+                           
+            </div>
+        </div>   
+    </div>
+    <section class="box hide-element">
+        <div id="wrap" class="main-wrapper">
+                <img src="img/Rectangle 15 copy.jpg" class="product-image" alt="product" />
+                <div class="product-info">
+                    <button id="butt1" class="buttons">X</button>
+                    <h2>Product name</h2>
+                    <div class="field">
+                        <p>Price:</p>
+                        <span>25</span>
+                    </div>
+                    <div class="field">
+                        <p>Color:</p>
+                        <span>25</span>
+                    </div>
+                    <div class="field">
+                        <p>Size:</p>
+                        <span>25</span>
+                    </div>
+                    <div class="field">
+                        <p>Quantity:</p>
+                        <span>25</span>
+                    </div>    
+                </div>
+            </div>
+     </section>
+    
+    <script src = "data.js"></script>
+
+    <script src= "json.js"></script>
+
+    <script src="script1.js"></script>
+    
+    <!-- <script src="script2.js"></script>     -->
+
+    
+</body>
+</html>

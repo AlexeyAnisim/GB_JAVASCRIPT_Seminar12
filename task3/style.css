@@ -1,0 +1,148 @@
+.product_box {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.product {
+    width: 360px;
+    height: 575px;
+    border: 1px solid #656565;
+
+}
+.product-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+        
+}
+.product-img:hover {
+    opacity: 0.2;
+}
+
+.product1{
+    position: relative;
+    background-color: rgb(22, 21, 21);
+}
+
+.product1 .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .product1 .btn:hover {
+    background-color: black;
+  }
+
+
+.cell {
+    width: 314.74px;
+    max-height: 51px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    padding-bottom: 10px;
+}
+
+span {
+    margin-left: 5px;
+}
+
+.product-inf {
+    max-width: 390px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+
+}
+
+.hide-element{
+    display: none;
+}
+
+.main-wrapper{
+
+    display: flex;
+    max-width: 652px;
+    width: 100%;
+    box-shadow: 10px 10px 10px #eaeaea;
+    background-color: white;
+    color: #656565;
+    height: 306px;
+    font-family: "Lato" sans-serif;
+    padding-left: 50px;
+}
+.main-wrapper:not(:first-of-type){
+    margin-top: 50px;
+
+}
+span{
+    margin-left: 5px;
+}
+h2{
+    font-weight: 400;
+    font-family: 'Lato';
+    font-size: 24px;
+     line-height: 29px;
+     color: #222222;
+     text-transform: uppercase;
+    padding-top: 22px;
+    margin: 0;
+    overflow-wrap: break-word;
+    width: 50%;
+}
+.product-info{
+    max-width: 390px;
+    width: 100%;
+    padding-left: 32px;
+}
+.field{
+    font-size: 22px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 26px;
+}
+.field:not(:first-of-type){
+    margin-top: 6px;
+}
+.field:first-of-type{
+    margin-top: 42px;
+}
+.product-image{
+    max-width: 262px;
+    width: 100%;
+}
+.quntity-count{
+    border: 1px solid #eaeaea;
+    padding: 0 16px;
+    color: #656565;
+    margin-left: 25px;
+} 
+.buttons{
+    left: 52.62%;
+    right: 46.25%;
+    top: 73.87%;
+    bottom: 25.75%;
+    margin-left: 310px;
+    margin-top: 20px;
+
+    
+}   
